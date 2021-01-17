@@ -23,6 +23,10 @@ android {
     }
 
     ndkVersion androidCompileNdkVersion
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -70,4 +74,8 @@ afterEvaluate {
         }
 
     }
+}
+
+dependencies {
+    compileOnly 'com.android.support:support-annotations:28.0.0'
 }

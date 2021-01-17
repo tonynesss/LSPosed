@@ -12,6 +12,10 @@ public final class ActivityThread {
 		throw new UnsupportedOperationException("STUB");
 	}
 
+	public Application getApplication() {
+		throw new UnsupportedOperationException("STUB");
+	}
+
 	public static String currentPackageName() {
 		throw new UnsupportedOperationException("STUB");
 	}

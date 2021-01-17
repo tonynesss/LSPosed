@@ -119,6 +119,8 @@ namespace edxp {
         friend std::unique_ptr<Context> std::make_unique<Context>();
 
         static void RegisterEdxpService(JNIEnv *env);
+
+        void RegisterEdxpManager(JNIEnv *env);
     };
 
 }
