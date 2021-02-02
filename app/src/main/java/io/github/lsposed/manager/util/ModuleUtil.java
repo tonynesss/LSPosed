@@ -323,7 +323,7 @@ public final class ModuleUtil {
         }
 
         public List<String> getScopeList() {
-            if (this.scopeList == null) {
+            if (scopeList == null) {
                 try {
                     int scopeListResourceId = app.metaData.getInt("xposedscope");
                     if (scopeListResourceId != 0) {
@@ -333,7 +333,7 @@ public final class ModuleUtil {
                     e.printStackTrace();
                 }
             }
-            return this.scopeList;
+            return scopeList;
         }
 
         public PackageInfo getPackageInfo() {
